@@ -55,7 +55,7 @@ export default function RegisterForm() {
       const uid = userCred.user.uid;
 
       // 🔥 Save extra data in Firestore
-      await setDoc(doc(db, "auth", uid), {
+      await setDoc(doc(db, "users", uid), {
         fullName: form.fullname,
         age: "26",
         class: "BBA",
