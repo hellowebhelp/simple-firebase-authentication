@@ -64,7 +64,7 @@ export default function LoginForm() {
             }));
             
             // 🔥 Redirect after login
-            router.push("http://localhost:3000/");
+            router.push("https://simple-firebase-authentication-ebon.vercel.app/");
 
         } catch (error) {
             console.log(error);
